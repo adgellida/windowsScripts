@@ -5,6 +5,10 @@ rem #### 001.installChocolatey
 rem #### install chocolatey - http://community.spiceworks.com/scripts/show/2602-chocolatey-nuget-install-command-line-method
 rem #### All Windows versions support commenting a line and uncommenting another.
 
+cd..
+cd..
+cd downloads
+
 rem @powershell Write-Host "Installing Chocolatey, Nuget Package Explorer and ChocolateyGUI... Please wait"
 rem @powershell Start-Sleep -s 3
 
@@ -19,4 +23,4 @@ rem @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-obj
 rem cinst chocolateygui
 rem cinst OuiGuiChocolatey
 rem cinst ChocoPM.install -Pre
-pause
+rem pause
