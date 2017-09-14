@@ -8,7 +8,7 @@
     <a href="https://github.com/adgellida/windowsScripts/issues?q=is%3Aopen" target="_blank"><img src="https://img.shields.io/github/issues/adgellida/windowsScripts.svg" alt="open issues"></a>
     <a href="https://github.com/adgellida/windowsScripts/releases/latest" target="_blank"><img src="https://img.shields.io/github/downloads/adgellida/windowsScripts/total.svg" alt="total downloads"></a>
     <a href="https://github.com/adgellida/windowsScripts/releases/latest" target="_blank"><img src="https://img.shields.io/github/downloads/adgellida/windowsScripts/v2017.09.09/total.svg" alt="total downloads latest release"></a>
-    <a href="https://github.com/adgellida/windowsScripts/releases/latest" target="_blank"><img src="https://img.shields.io/badge/latest release-no releases-blue.svg" alt="latest release"></a> <img src="https://img.shields.io/maintenance/pause/2017.svg" alt="maintained"></a>
+    <a href="https://github.com/adgellida/windowsScripts/releases/latest" target="_blank"><img src="https://img.shields.io/badge/latest release-no releases-blue.svg" alt="latest release"></a> <img src="https://img.shields.io/maintenance/pause/2016.svg" alt="maintained"></a>
     <a href="https://github.com/adgellida/windowsScripts/releases"><img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platforms"></a>
     <a href="https://github.com/adgellida/windowsScripts/releases"><img src="https://img.shields.io/badge/status-alpha-orange.svg" alt="Status"></a>
 </p>
