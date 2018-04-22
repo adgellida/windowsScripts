@@ -3,8 +3,10 @@
 echo 'Downloading updated scripts. Please wait... Stage 1/3';
 
 $down = New-Object System.Net.WebClient;
-$url = 'https://github.com/adgellida/windowsScripts/archive/master.zip';
-iex $down.DownloadString($url);
+$url = 'https://codeload.github.com/adgellida/windowsScripts/zip/master';
+$file = 'master.zip';
+
+$down.DownloadFile($url,$file);
 
 echo 'Cleaning old scripts. Please wait... Stage 2/3';
 
