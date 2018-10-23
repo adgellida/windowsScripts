@@ -2,11 +2,11 @@
 
 echo 'Downloading updated scripts. Please wait... Stage 1/3';
 
-$down = New-Object System.Net.WebClient;
 $url = 'https://codeload.github.com/adgellida/windowsScripts/zip/master';
-$file = 'master.zip';
+$output = 'master.zip';
 
-$down.DownloadFile($url,$file);
+[Net.ServicePointManager]::SecurityProtocol = "Tls12, Tls11, Tls, Ssl3"
+Invoke-WebRequest -Uri $url -OutFile $output
 
 echo 'Cleaning old scripts. Please wait... Stage 2/3';
 
