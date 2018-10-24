@@ -5,7 +5,4 @@ rem #### 013.runWindosUpdateMiniTool
 cd..
 cd..
 cd downloads
-@powershell -NoProfile -ExecutionPolicy Bypass -Command "$source = 'https://www.ogzdq5-user.freehosting.host/files/wumt.zip'; $destination = 'wumt.zip'; Invoke-WebRequest $source -OutFile $destination;
-@powershell -NoProfile -ExecutionPolicy Bypass -Command "Expand-Archive wumt.zip -DestinationPath wumt; $file = 'wumt\wumt_x64.exe'; $exec = New-Object -com shell.application; $exec.shellexecute($file); exit;"
-@powershell -NoProfile -ExecutionPolicy Bypass -Command "Remove-Item wumt.zip";
-rem pause
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "C:\ProgramData\chocolatey\choco.exe install -y -force wumt; C:\tools\wumt\wumt.exe"
