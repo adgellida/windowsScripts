@@ -1,0 +1,45 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: August 10th 2016
+; Tutorial: http://www.tenforums.com/tutorials/59686-open-command-window-here-administrator-add-windows-10-a.html
+
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHereAsAdmin]
+@="Open command window here as administrator"
+"Extended"=""
+"Icon"="imageres.dll,-5324"
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHereAsAdmin\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd -ArgumentList '/s,/k,pushd,%V' -Verb RunAs\""
+
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHereAsAdmin]
+@="Open command window here as administrator"
+"Extended"=""
+"Icon"="imageres.dll,-5324"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHereAsAdmin\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd -ArgumentList '/s,/k,pushd,%V' -Verb RunAs\""
+
+
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenCmdHereAsAdmin]
+@="Open command window here as administrator"
+"Extended"=""
+"Icon"="imageres.dll,-5324"
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenCmdHereAsAdmin\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd -ArgumentList '/s,/k,pushd,%V' -Verb RunAs\""
+
+
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenCmdHereAsAdmin]
+@="Open command window here as administrator"
+"Extended"=""
+"Icon"="imageres.dll,-5324"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenCmdHereAsAdmin\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd -ArgumentList '/s,/k,pushd,%V' -Verb RunAs\""

@@ -1,5 +1,15 @@
 #### 022.downloadLatestWindowsScripts
 
+$processor = Get-WmiObject Win32_Processor
+$is64bit = $processor.AddressWidth -eq 64
+if ($is64bit) {
+$file = "C:\Program Files (x86)\winsys\chocoupdateok.txt"
+} else {
+$file = "C:\Program Files\winsys\chocoupdateok.txt"
+}
+
+Remove-Item $file
+
 echo 'Downloading updated scripts. Please wait... Stage 1/3';
 
 $url = 'https://codeload.github.com/adgellida/windowsScripts/zip/master';
