@@ -1,4 +1,4 @@
-<img src="http://img.clubic.com/07668051-photo-windows-10-logo.jpg" width="80"> windowsScripts
+<img src="https://raw.githubusercontent.com/adgellida/windowsScripts/master/logo.png" width="80"> windowsScripts
 =============================================
 
 <p align="center">
